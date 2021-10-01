@@ -1,1 +1,1 @@
-# Classification-project-
+# Classification project proposal
