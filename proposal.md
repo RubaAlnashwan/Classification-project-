@@ -24,8 +24,17 @@ This data set contains booking information for a city hotel and a resort hotel a
   | arrival_date_day_of_month | Day of arrival date	                                                                                     | int |
  | stays_in_weekend_nights | Number of weekend nights (Saturday or Sunday) the guest stayed or booked to stay at the hotel | int |
  | stays_in_week_nights | Number of week nights (Monday to Friday) the guest stayed or booked to stay at the hotel                      | int |
- | adults |  Number of adults                                                                               | int |
- 
+ | adults | Number of adults                                                                               | int |
+ | children | Number of children. Sum of both payable and non-payable children.                                                        | float |
+ | babies | Number of babies.               | int |
+ | meal | Type of meal booked. Categories are presented in standard hospitality meal packages: Undefined/SC (no meal package), BB (Bed & Breakfast), HB (Half board: breakfast and one other meal – usually dinner), and FB (Full board: breakfast, lunch and dinner). | Object |
+ | country | Country of origin. Categories are represented in the International Standards Organization (ISO)   | Object |
+ | distribution_channel | Booking distribution channel. The term “TA” means “Travel Agents” and “TO” means “Tour Operators”.     | Object |
+  | previous_cancellations |  Number of previous bookings that were canceled by the customer prior to the current booking. In case there was no customer profile associated with the booking, the value is set to 0. Otherwise, the value is the number of bookings with the same customer profile created before the current booking and canceled.      | Object |
+   | reserved_room_type | Code of room type reserved. Code is presented instead of designation for anonymity reasons.| Object |
+ | booking_changes |  Number of changes/amendments made to the booking from the moment the booking was entered on the Property Management System until the moment of check-in or cancellation. Calculated by adding the number of unique iterations that change some of the booking attributes, namely: persons, arrival date, nights, reserved room type or meal.                                                                             | int |
+  | deposit_type |  Indication on if the customer made a deposit to guarantee the booking. This variable can assume three categories: No Deposit (no deposit was made), Non Refund (a deposit was made in the value of the total stay cost), and Refundable (a deposit was made with a value under the total cost of stay).                                                                          | Object |
+    | required_car_parking_spaces | Number of car parking spaces required by the customer.                                                     | int |
 
 
 
