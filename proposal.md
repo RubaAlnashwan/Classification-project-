@@ -32,7 +32,7 @@ This data set contains booking information for a city hotel and a resort hotel a
 
   ### Scope
 In this project,We used data for booking hotel, observation represents a hotel booking between the 1st of July 2015 and 31st of August 2017, including booking that effectively arrived and booking that were canceled.
-The dataset contains 119390 rows and 10 columns.
+The dataset contains 119390 rows and 19 columns.
  
 
 ## Tools
