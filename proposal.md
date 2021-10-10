@@ -34,7 +34,7 @@ This data set contains booking information for a city hotel and a resort hotel a
    | reserved_room_type | Code of room type reserved. Code is presented instead of designation for anonymity reasons.| Object |
  | booking_changes |  Number of changes/amendments made to the booking from the moment the booking was entered on the Property Management System until the moment of check-in or cancellation. Calculated by adding the number of unique iterations that change some of the booking attributes, namely: persons, arrival date, nights, reserved room type or meal.                                                                             | int |
   | deposit_type |  Indication on if the customer made a deposit to guarantee the booking. This variable can assume three categories: No Deposit (no deposit was made), Non Refund (a deposit was made in the value of the total stay cost), and Refundable (a deposit was made with a value under the total cost of stay).                                                                          | Object |
-    | required_car_parking_spaces | Number of car parking spaces required by the customer.                                                     | int |
+| required_car_parking_spaces | Number of car parking spaces required by the customer.                                                     | int |
 
 
 
